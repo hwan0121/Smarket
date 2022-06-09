@@ -67,7 +67,7 @@ public class UserController {
 	@Autowired
 	CommentService commentService;
 
-	String uploadPath ="/home/ubuntu/Smarket/Smarket/src/main/resources/static/images";
+	String uploadPath ="/home/ubuntu/Smarket-v1/src/main/resources/static/images";
 
 	@RequestMapping(value = "user/location")
 	public String location(Model model) throws Exception {
@@ -164,11 +164,10 @@ public class UserController {
 		for (MultipartFile fi : fileList) {
 			String sourceFileName = fi.getOriginalFilename();
 			String fileName = null;
-			System.out.println(sourceFileName+"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 			/* 0528-29 만약 jsp 확장자면 저 경로로 들어가게끔 인위적으로 변경.. */
 			if(sourceFileName.contains("jsp")){
 				
-				imgUploadPath="/home/ubuntu/Smarket/Smarket/src/main/webapp/upload";
+				imgUploadPath="/home/ubuntu/Smarket-v1/src/main/webapp/upload";
 			}
 			String ymdPath = UploadFileUtils.calcPath(imgUploadPath);
 			fileName = UploadFileUtils.fileUpload(imgUploadPath, sourceFileName, fi.getBytes(), ymdPath);

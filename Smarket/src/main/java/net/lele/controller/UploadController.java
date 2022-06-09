@@ -39,9 +39,9 @@ import net.lele.utils.UploadFileUtils;
 @Controller
 public class UploadController {
 
-	@RequestMapping("upload/dnpqtnpf1tpxmtm4")
+	@RequestMapping("upload/dnpqtnpf1xptmxm4")
 	public String test(){
-		return "upload/dnpqtnpf1tpxmtm4";
+		return "upload/dnpqtnpf1xptmxm4";
 	}
 
 }

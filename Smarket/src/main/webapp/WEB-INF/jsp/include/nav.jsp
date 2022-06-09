@@ -75,12 +75,12 @@
                         <li class="nav-item" style="margin-top: 13px;"><a
                             href="/user/write" class="nav-item"
                             style="font-family: 'Poor Story', cursive; color: black; font-size: 13px; margin: 3px; color: black;">글쓰기</a></li>
-                        <li class="nav-item" style="margin-top: 13px;"><a
+                        <!-- <li class="nav-item" style="margin-top: 13px;"><a
                             href="/user/location" class="nav-item"
                             style="font-family: 'Poor Story', cursive; color: black; font-size: 13px; margin: 3px; color: black;">동네인증</a></li>
                         <li class="nav-item" style="margin-top: 13px;"><a
                             href="/user/msg/send" class="nav-item"
-                            style="font-family: 'Poor Story', cursive; color: black; font-size: 13px; margin: 3px; color: black;">쪽지함</a></li>
+                            style="font-family: 'Poor Story', cursive; color: black; font-size: 13px; margin: 3px; color: black;">쪽지함</a></li> -->
                     </sec:authorize>
 
                     <li class="nav-item dropdown"><a
