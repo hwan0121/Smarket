@@ -84,7 +84,7 @@ public class AdminController {
          String fileName = request.getParameter("fileName");
          
          // 다운로드 경로 (내려받을 파일경로를 설정한다.)
-         String filePath = "C:/Users/test/Desktop/";
+         String filePath = "/home/ubuntu";
 
          // 경로와 파일명으로 파일 객체를 생성한다.
          File dFile  = new File(filePath, fileName);
